@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOHN-WEB</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/7b50b28427.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h2 class="logo">JOHN TECH</h2>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portofolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Designer</p>
+                <h1>Hi, I'm <span>Muhammed</span><br> John From The Gambia</h1>
+            </div>
+        </div>
+    </div>
+
+                                 <!---------about----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="WhatsApp Image 2023-06-18 at 15.42.10.jpg" alt="me">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I'm Muhammed John a hardworking and driven individual who isn't afraid to face a challenge. I also have the mindset you can only get out of life what you are prepared to put in. I'm currently studying at ENSAF and keen to pursuea career in Computer Engineering
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br> Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Technical Support</span><br>I have offered technical assistance and troubleshooting guidance for software, applications, and digital tools.</li>
+                            <li><span>Content Creation</span><br> I have assisted individuals and businesses in generating content for various purposes such as blog posts, articles, product descriptions, and more. This includes adapting to different tones, styles, and subject matters</li>
+                            <li><span>Research Assistance</span><br>I have aided researchers, students, and professionals by providing information, references, and insights on various subjects to support their work.</li>
+                            <li><span>Language Translation</span><br>I have the ability to translate text from one language to another, aiding in bridging communication gaps and enabling cross-cultural understanding.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>Started University at UTG and later got a scholarship to study in ENSAF</li>
+                            <li><span>2021</span><br>A High School Graduate from Nusrat</li>
+                            <li><span>2018</span><br>Completed my Junior School at New Covenant</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+                       <!-----------services------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <p>List of potential services I could provide:</p>
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p>
+                        I can create visually appealing and user-friendly website designs tailored to the specific needs and branding of clients. This includes layout design, color schemes, typography selection, and overall aesthetic considerations.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div> 
+                    <h2>Copywriting</h2>
+                    <p>
+                        I can craft persuasive and compelling copy for advertisements, marketing materials, product descriptions, landing pages, and other promotional content.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>Front-End Development</h2>
+                    <p>
+                        While not strictly a web designer's role, I can offer basic front-end development services, including HTML, CSS, and JavaScript, to bring the design to life and ensure its implementation matches the intended visual design.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>Language Translation</h2>
+                    <p>
+                        I can translate text from one language to another, facilitating effective communication across different cultures and markets. 
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+                 <!-------------portfolio------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1> 
+            <div class="work-list">
+                <div class="work">
+                    <img src="WhatsApp Image 2023-06-22 at 19.04.03.jpg" alt="lap">
+                    <div class="layer">
+                        <h3>Laptop</h3>
+                        <p>The device helps your Education througth research, creating presentations, and accessing online learning resources e.g freeCodeCamp.</p>
+                        <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="WhatsApp Image 2023-06-22 at 19.08.52.jpg" alt="books">
+                    <div class="layer">
+                        <h3>Books</h3>
+                        <p>Books provide in-depth information, explanations, and insights that help readers acquire knowledge and expand their understanding of the world.</p>
+                        <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="WhatsApp Image 2023-06-22 at 19.09.25.jpg" alt="phone">
+                    <div class="layer">
+                        <h3>Phone</h3>
+                        <p>The primary purpose of phones is to facilitate communication which links you to the world.</p>
+                        <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="" alt="">
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>  
+        </div>
+    </div>
+                        <!-----------contact------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>muhammedjohn3@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+212697882357</p>
+                    <p><i class="fa-brands fa-instagram"></i>__maha_jr__</p>
+                    <p><i class="fa-brands fa-linkedin"></i>Muhammed John</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Recommendation.pdf" download class="btn btn2">Download Recommendation</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-sharp fa-regular fa-copyright"></i> JOHN TECH</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
